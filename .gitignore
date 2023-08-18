@@ -1,7 +1,0 @@
-.DS_Store
-**/.env
-**/.DS_Store
-**/node_modules
-.vscode
-.gitignore
-online_shopping_monolithic/app_error.log
