@@ -10,11 +10,11 @@ class CustomerRepository {
   async CreateCustomer({ email, password, phone, salt }) {
     try {
       const customer = new CustomerModel({
-        email,
-        password,
-        salt,
-        phone,
-        address: [],
+                                            email,
+                                            password,
+                                            salt,
+                                            phone,
+                                            address: [],
       });
       const customerResult = await customer.save();
       return customerResult;
